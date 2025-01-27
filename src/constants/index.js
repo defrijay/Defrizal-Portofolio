@@ -103,7 +103,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'Pandas',
-        path: 'assets/tech/huggingface.png',
+        path: '/assets/tech/huggingface.png',
       },
       {
         id: 3,
