@@ -97,7 +97,7 @@ const Projects = () => {
               className="flex items-center gap-2 cursor-pointer text-white-600"
               onClick={handleOpenModal} // Use onClick to handle modal and link navigation
             >
-              <p>Check Live Site</p>
+              <p>Check Notebook</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </div>
           </div>

@@ -1,19 +1,19 @@
-import css from "../assets/tech/css.png";
-import docker from "../assets/tech/docker.png";
-import figma from "../assets/tech/figma.png";
+import tensorflow from "../assets/tech/tensorflow.png";
 import git from "../assets/tech/git.png";
-import html from "../assets/tech/html.png";
-import javascript from "../assets/tech/javascript.png";
+import python from "../assets/tech/python.png";
 import mongodb from "../assets/tech/mongodb.png";
-import nodejs from "../assets/tech/nodejs.png";
-import reactjs from "../assets/tech/reactjs.png";
-import tailwind from "../assets/tech/tailwind.png";
-import typescript from "../assets/tech/typescript.png";
-import php from "../assets/tech/php.png";
+import matplotlib from "../assets/tech/matplotlib.png";
 import mysql from "../assets/tech/mysql.png";
-import expressJS from "../assets/tech/expressJS.png";
-import laravel from "../assets/tech/laravel.png";
-import codeigniter from "../assets/tech/codeigniter.webp";
+import postgresql from "../assets/tech/postgresql.png";
+import huggingFace from "../assets/tech/huggingFace.png";
+import kaggle from "../assets/tech/kaggle.png";
+import scikitLearn from "../assets/tech/scikit-learn.png";
+import seaborn from "../assets/tech/seaborn.png";
+import pytorch from "../assets/tech/pytorch.png";
+import keras from "../assets/tech/keras.jpeg";
+import tableau from "../assets/tech/tableau.png";
+import pandas from "../assets/tech/pandas.jpg";
+import numpy from "../assets/tech/numpy.png";
 
 export const navLinks = [
   {
@@ -80,12 +80,12 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Project Management App',
-    desc: 'A website application to manage a list of projections in a team for work purposes and division of tasks for each person involved in the project.',
+    title: 'Text Summarization Liputan 6 Article',
+    desc: 'This project implements a Indo T5 model to generate text summaries from news articles. The model leverages data preprocessing, text augmentation, and deep learning techniques to automatically summarize text.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with ReactJS, Tailwind CSS, Laravel, and MySQL.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    github: 'https://github.com/defrijay/project-management-app',
+      'Built with Tensorflow, Pandas, Matplotlib, and Torch.',
+    href: 'https://github.com/defrijay/IndoT5-TextSummarization-Liputan6/blob/main/IndoT5-Base%5BFineTuned%5D/indo-t5-base-fine-tuned.ipynb',
+    github: 'https://github.com/defrijay/IndoT5-TextSummarization-Liputan6',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -97,32 +97,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Tensorflow',
+        path: '/assets/tech/tensorflow.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Pandas',
+        path: 'assets/tech/huggingface.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/tech/laravel.png',
+        name: 'matplotlib',
+        path: '/assets/tech/matplotlib.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/tech/mysql.png',
+        name: 'Pytorch',
+        path: '/assets/tech/pytorch.png',
       },
     ],
   },
   {
-    title: 'KEMAKOM FPMIPA UPI',
-    desc: 'Website for introducing the organization called BEM KEMAKOM FPMIPA UPI and serving KEMAKOM residents with news and information about KEMAKOM.',
+    title: 'LSTM Tokped Sentiment',
+    desc: 'This project is an implementation of sentiment analysis using the LSTM (Long Short-Term Memory) model with Bidirectional architecture. The data used is a collection of customer reviews with sentiment labels to train and evaluate the model.',
     subdesc:
-      'Build with Bootsrtrap, Codeigniter, and MySQL',
-    href: 'https://kemakom.org',
+      'Build with Tensorflow, Pandas, Numpy, Sklearn, Seaborn, and Matplotlib.',
+    href: 'https://github.com/defrijay/LSTM-Tokped-Sentiment/blob/main/tokped-sentiment.ipynb',
+    github: 'https://github.com/defrijay/LSTM-Tokped-Sentiment',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -134,27 +135,43 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'Bootsrap',
-        path: '/assets/tech/bootstrap.png',
+        name: 'Tensorflow',
+        path: '/assets/tech/tensorflow.png',
       },
       {
         id: 2,
-        name: 'Codeigniter',
-        path: 'assets/tech/codeigniter.webp',
+        name: 'Pandas',
+        path: 'assets/tech/pandas.jpg',
       },
       {
         id: 3,
-        name: 'MySQL',
-        path: '/assets/tech/mysql.png',
+        name: 'Numpy',
+        path: '/assets/tech/numpy.png',
+      },
+      {
+        id: 4,
+        name: 'scikit-learn',
+        path: '/assets/tech/scikit-learn.png',
+      },
+      {
+        id: 5,
+        name: 'seaborn',
+        path: '/assets/tech/seaborn.png',
+      },
+      {
+        id: 6,
+        name: 'matplotlib',
+        path: '/assets/tech/matplotlib.png',
       },
     ],
   },
   {
-    title: 'Dinamik-19',
-    desc: 'An anniversary event for the Computer Science and Computer Science Education study programs at UPI.',
+    title: 'Vandalism Classification',
+    desc: 'This notebook aims to discuss the application of deep learning algorithms to the task of classifying vandalism and non-vandalism images. With rapid urbanization, monitoring signs of vandalism is important to maintain the beauty and cleanliness of the environment.',
     subdesc:
-      'Build with ReactJS, TailwindCSS, Laravel, and MySQL',
-    href: 'https://dinamik.kemakom.org',
+      'Build with Tensorflow, Numpy, Matplotlib, and Keras.',
+    href: 'https://github.com/defrijay/Vandalism-Classification/blob/main/Vandalism_Classification.ipynb',
+    github : 'https://github.com/defrijay/Vandalism-Classification',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -168,33 +185,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Tensorflow',
+        path: '/assets/tech/tensorflow.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Numpy',
+        path: 'assets/tech/numpy.png',
       },
       {
         id: 3,
-        name: 'Laravel',
-        path: '/assets/tech/laravel.png',
+        name: 'Matplotlib',
+        path: '/assets/tech/matplotlib.png',
       },
       {
         id: 4,
-        name: 'MySQL',
-        path: '/assets/tech/mysql.png',
+        name: 'Keras',
+        path: '/assets/tech/keras.jpeg',
       },
     ],
   },
   {
-    title: 'Campside',
-    desc: 'A website main page about promoting a mobile application, which attracts users to download the application by introducing the benefits and features available in this application.',
+    title: 'EDA Work Area Decision Making',
+    desc: 'This project aims to assist individuals in determining work locations in West Java by considering various factors, such as expenditure per capita, minimum wages, the number of employed residents, and the poverty line. The data used is sourced from the Central Statistics Agency (BPS) and the Department of Manpower and Transmigration of West Java.',
     subdesc:
-      'Build with Typescript, NextJS, and TailwindCSS.',
-    href: '',
-    github:'https://github.com/defrijay/Campside',
+      'Build with Pandas, Numpy, Matplotlib, and Seaborn.',
+    href: 'https://github.com/defrijay/EDA-Work-Area-Decision-Making/blob/main/EDA%20Kelompok%203.ipynb',
+    github:'https://github.com/defrijay/EDA-Work-Area-Decision-Making',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -206,66 +223,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'NextJS',
-        path: '/assets/tech/nextJS.png',
+        name: 'Pandas',
+        path: '/assets/tech/pandas.jpg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Numpy',
+        path: 'assets/tech/numpy.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'Matplotlib',
         path: '/assets/typescript.png',
-      }
-    ],
-  },
-  {
-    title: 'Momo Store',
-    desc: 'Momo Store is a modern e-commerce application that allows users to browse products, add them to cart, place orders, and review products. The application is built using Next.js to deliver a fast, responsive, and SEO-friendly user experience.',
-    subdesc:
-      'Bulid with VueJS, TailwindCSS, and ExpressJS',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    github: 'https://github.com/defrijay/momo-store',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'Vue.js',
-        path: '/assets/tech/vueJS.png',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/tech/expressJS.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/tech/mongodb.png',
+        name: 'Seaborn',
+        path: '/assets/tech/seaborn.png',
       },
     ],
   },
   {
-    title: 'Bara University',
-    desc: 'A web application for registering prospective students on the Bara University website so they can become students.',
+    title: 'NST Photo To Art',
+    desc: 'This project explores Neural Style Transfer (NST), a deep learning technique that transfers the style of one image to another while preserving its content. Three different architectures are used: Vanilla NST, Residual NST, and Multi-Scale NST.',
     subdesc:
-      'Build with Bootstrap and PHP',
-    href: '',
-    github: 'https://github.com/defrijay/bara-university',
+      'Bulid with Tensorflow, Numpy, and Keras.',
+    href: 'https://github.com/defrijay/NST-Photo-To-Art/blob/main/NST-Photo-To-Art.ipynb',
+    github: 'https://github.com/defrijay/NST-Photo-To-Art',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -277,167 +261,35 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'PHP',
-        path: '/assets/tech/php.png',
+        name: 'Tensorflow',
+        path: '/assets/tech/tensorflow.png',
       },
       {
         id: 2,
-        name: 'Bootrstrap',
-        path: 'assets/tech/bootstrap.png',
+        name: 'Numpy',
+        path: 'assets/tech/numpy.png',
       },
       {
         id: 3,
-        name: 'MySQL',
-        path: '/assets/tech/mysql.png',
+        name: 'Keras',
+        path: '/assets/tech/keras.jpeg',
       }
-    ],
-  },
-  {
-    title: 'Majestic Restaurant',
-    desc: 'A responsive restaurant website homepage called majestic-restaurant which is used to introduce the restaurant in general. Starting from the initial introduction, menu, contact, and others.',
-    subdesc:
-      'Built with ReactJS and TailwindCSS',
-    href: '',
-    github: 'https://github.com/defrijay/majestic-restaurant',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'CSS',
-        path: 'assets/tech/css.png',
-      },
-      {
-        id: 3,
-        name: 'Javascript',
-        path: '/assets/tech/javascript.png',
-      },
-    ],
-  },
-  {
-    title: 'Digisehat',
-    desc: 'A mobile application to help patients find the nearest help to avoid unwanted incidents.',
-    subdesc:
-      'Build with Flutter and Rust',
-    href: '',
-    github: 'https://github.com/sabilfaustaa/provis-frontend',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'Flutter',
-        path: 'assets/tech/flutter.webp',
-      },
-      {
-        id: 2,
-        name: 'TypeScript',
-        path: '/assets/tech/rust.png',
-      },
-      {
-        id: 3,
-        name: 'Framer Motion',
-        path: '/assets/tech/sqlite.png',
-      },
-    ],
-  },
-  {
-    title: 'Litik Course',
-    desc: 'A website for student learning C language programming.',
-    subdesc:
-      'Build with ReactJS, TailwindCSS, and ExpressJS',
-    href: '',
-    github: 'https://github.com/sabilfaustaa/provis-frontend',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'ExpressJS',
-        path: '/assets/tech/expressJS.png',
-      },
-      {
-        id: 4,
-        name: 'MySQL',
-        path: '/assets/tech/mysql.png',
-      },
     ],
   },
 ];
 
 export const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Pyhton",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Pyhton",
+    icon: python,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
-    name: "Codeigniter",
-    icon: codeigniter,
+    name: "Tensorflow",
+    icon: tensorflow,
   },
   {
     name: "git",
@@ -448,8 +300,44 @@ export const technologies = [
     icon: mysql,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Scikit-learn",
+    icon: scikitLearn,
+  },
+  {
+    name: "Seaborn",
+    icon: seaborn,
+  },
+  {
+    name: "Pytorch",
+    icon: pytorch,
+  },
+  {
+    name: "Keras",
+    icon: keras,
+  },
+  {
+    name: "Tableau",
+    icon: tableau,
+  },
+  {
+    name: "Hugging Face",
+    icon: huggingFace,
+  },
+  {
+    name: "Kaggle",
+    icon: kaggle,
+  },
+  {
+    name: "Pandas",
+    icon: pandas,
+  },
+  {
+    name: "Numpy",
+    icon: numpy,
   },
 ];
 
@@ -473,23 +361,23 @@ export const workExperiences = [
     icon: '/assets/tech/kemakom.svg',
     animation: 'victory',
     points: [
-      'Designed and developed organizational websites using MySQL and CodeIgniter 4, increasing website traffic by 40%.',
-      'Managed website updates, including news, organizational structure, and other content, improving information accessibility for members.',
-      'Proposed and implemented new features, enhancing user experience and engagement.',
-      'Led a team of 3 members, achieving a 100% completion rate for all technology-related projects within deadlines.'
+      'Designed and developed websites with MySQL and CodeIgniter 4, boosting traffic by 40%.',
+      'Created AI/ML features such as a chatbot to enhance user interaction for accessibility for 100+ members.',
+      'Managed updates, improving content accessibility for 100+ members.',
+      'Led a team of 3, ensuring 100% on-time completion of tech projects and implementing AI-driven solutions to streamline processes.'
     ],
   },
   {
     id: 2,
     name: 'Dinamik-19',
-    pos: 'Front-End Developer',
+    pos: 'Fullstack Developer',
     duration: 'August 2024 - October 2024',
     icon: '/assets/tech/dinamik.svg',
     animation: 'clapping',
     points: [
-      "Developed and launched the official DINAMIK-19 website, attracting over 5,000 unique visitors during the event.",
-      "Improved website responsiveness and performance, resulting in a 30% reduction in load time.",
-      "Worked closely with the team to refine design and functionality, ensuring a seamless user experience."
+      "Developed and launched the DINAMIK-19 website, attracting 5,000+ visitors and increasing engagement by 20%.",
+      "Optimized full-stack performance, reducing load time by 30% and improving user retention by 15%.",
+      "Improved design and functionality, achieving 95% user satisfaction through collaboration."
     ],
   },
   {
@@ -500,9 +388,9 @@ export const workExperiences = [
     icon: '/assets/tech/jsc.svg',
     animation: 'salute',
     points: [
-      "Designed intuitive UI for Jakarta Smart City's internal website, reducing user navigation time by 25%.",
-      "Enhanced usability and navigation through user-centered design principles, receiving positive feedback from stakeholders.",
-      "Collaborated with cross-functional teams to optimize website features, contributing to a successful project launch on schedule."
+      "Designed optimized database queries, improving data retrieval efficiency and reducing response time by 25%.",
+      "Enhanced query structure and indexing, boosting overall system performance and increasing stakeholder satisfaction by 30%.",
+      "Collaborated on database and server optimizations, ensuring 100% on-time project launch and improving system reliability by 15%."
     ],
   },
 ];
