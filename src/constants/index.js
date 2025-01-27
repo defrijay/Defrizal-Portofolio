@@ -284,10 +284,6 @@ export const technologies = [
     icon: python,
   },
   {
-    name: "Pyhton",
-    icon: python,
-  },
-  {
     name: "Tensorflow",
     icon: tensorflow,
   },
@@ -299,10 +295,10 @@ export const technologies = [
     name: "MySQL",
     icon: mysql,
   },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
-  },
+  // {
+  //   name: "PostgreSQL",
+  //   icon: postgresql,
+  // },
   {
     name: "Scikit-learn",
     icon: scikitLearn,
