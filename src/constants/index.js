@@ -5,7 +5,7 @@ import mongodb from "../assets/tech/mongodb.png";
 import matplotlib from "../assets/tech/matplotlib.png";
 import mysql from "../assets/tech/mysql.png";
 import postgresql from "../assets/tech/postgresql.png";
-import huggingFace from "../assets/tech/huggingFace.png";
+import huggingface from "../assets/tech/huggingface.png";
 import kaggle from "../assets/tech/kaggle.png";
 import scikitLearn from "../assets/tech/scikit-learn.png";
 import seaborn from "../assets/tech/seaborn.png";
@@ -325,7 +325,7 @@ export const technologies = [
   },
   {
     name: "Hugging Face",
-    icon: huggingFace,
+    icon: huggingface,
   },
   {
     name: "Kaggle",
