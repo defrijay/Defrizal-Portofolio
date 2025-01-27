@@ -1,2 +1,2 @@
 Defrizal Portofolio
-"# defrizal-portofolio" 
+"# defrizal-portofolio AI" 
